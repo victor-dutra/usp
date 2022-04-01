@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+ int main(){
+float cabeca, patas, c, p, resultado;
+printf("insert number of cabessa");
+scanf("%f", &cabeca);
+printf("insert number of patas");
+scanf("%f", &patas);
+ c=((patas*(0.5))- cabeca);
+ p=(cabeca-c);
+
+printf("o numero de patos eh: %.f\n", p );
+printf("o numero de coelhos eh: %.f\n", c );
+}
