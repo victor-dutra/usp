@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+float a,b, resposta;
+int main(){
+printf("insrira o valor de: a ");
+scanf("%f", &a);
+printf("insrira o valor de: b ");
+scanf("%f", &b);
+resposta= (a+b)/2;
+printf("o resultado eh : %.2f\n", resposta);
+
+}
