@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    float nota, maior, menor;
+    nota=maior=1;
+    menor=11;
+
+    while (nota>0)
+    {
+        printf("informe a nota,negativa pra terminar,");
+        scanf("%f", &nota);
+
+        if(nota>maior)
+        {
+
+            maior=nota;
+        }
+        if(nota<menor &&nota>0)
+        {
+            menor=nota;
+
+        }
+
+
+
+
+        printf( "a maior nota foi %.f\n e a menor foi %.f\n", maior,menor);
+
+    }
+
+}
