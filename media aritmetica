@@ -8,5 +8,6 @@ printf("insrira o valor de: b ");
 scanf("%f", &b);
 resposta= (a+b)/2;
 printf("o resultado eh : %.2f\n", resposta);
+printf("hello world");
 
 }
